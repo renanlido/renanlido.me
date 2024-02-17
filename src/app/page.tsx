@@ -1,112 +1,99 @@
-import Image from 'next/image'
+import { Github, Linkedin, Mail } from 'lucide-react'
+import Link from 'next/link'
+import { SVGProps } from 'react'
+
+import { FlipCard } from '@/components/flip-card'
+
+function WhatsappSvg({ ...props }: SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      fill="#000"
+      height="800px"
+      width="800px"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 52 52"
+      stroke-width="2"
+      xmlSpace="preserve"
+      {...props}
+    >
+      <path d="M26 0C11.663 0 0 11.663 0 26c0 4.891 1.359 9.639 3.937 13.762C2.91 43.36 1.055 50.166 1.035 50.237a.996.996 0 00.27.981c.263.253.643.343.989.237l10.306-3.17A25.936 25.936 0 0026 52c14.337 0 26-11.663 26-26S40.337 0 26 0zm0 50a23.94 23.94 0 01-12.731-3.651 1 1 0 00-.825-.108l-8.999 2.77a991.452 991.452 0 012.538-9.13c.08-.278.035-.578-.122-.821A23.907 23.907 0 012 26C2 12.767 12.767 2 26 2s24 10.767 24 24-10.767 24-24 24z" />
+      <path d="M42.985 32.126c-1.846-1.025-3.418-2.053-4.565-2.803-.876-.572-1.509-.985-1.973-1.218-1.297-.647-2.28-.19-2.654.188a1 1 0 00-.125.152c-1.347 2.021-3.106 3.954-3.621 4.058-.595-.093-3.38-1.676-6.148-3.981-2.826-2.355-4.604-4.61-4.865-6.146C20.847 20.51 21.5 19.336 21.5 18c0-1.377-3.212-7.126-3.793-7.707-.583-.582-1.896-.673-3.903-.273a1.01 1.01 0 00-.511.273c-.243.243-5.929 6.04-3.227 13.066 2.966 7.711 10.579 16.674 20.285 18.13 1.103.165 2.137.247 3.105.247 5.71 0 9.08-2.873 10.029-8.572a.996.996 0 00-.5-1.038zm-12.337 7.385c-10.264-1.539-16.729-11.708-18.715-16.87-1.97-5.12 1.663-9.685 2.575-10.717.742-.126 1.523-.179 1.849-.128.681.947 3.039 5.402 3.143 6.204 0 .525-.171 1.256-2.207 3.293A.996.996 0 0017 22c0 5.236 11.044 12.5 13 12.5 1.701 0 3.919-2.859 5.182-4.722a.949.949 0 01.371.116c.36.181.984.588 1.773 1.104 1.042.681 2.426 1.585 4.06 2.522-.742 3.57-2.816 7.181-10.738 5.991z" />
+    </svg>
+  )
+}
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl lg:static lg:w-auto lg:rounded-xl lg:border lg:bg-gray-200  lg:p-4 dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white lg:static lg:h-auto lg:w-auto lg:bg-none dark:from-black dark:via-black">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="flex h-screen flex-col items-center justify-center">
+      <FlipCard height="400px" width="400px" />
+
+      <div className="mt-6 flex flex-col items-center gap-20 font-dm-sans">
+        <div className="flex flex-col items-center gap-2">
+          <h1 className=" text-3xl text-white">
+            Olá 👋, eu sou Renan Oliveira, desenvolvedor fullstack
+          </h1>
+
+          <h2 className="text-2xl font-[200] text-white">
+            Este é meu portfólio e ele está em construção ⚒️
+          </h2>
         </div>
-      </div>
 
-      <div className="relative z-[-1] flex place-items-center before:absolute before:h-[300px] before:w-full before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] sm:before:w-[480px] sm:after:w-[240px] before:lg:h-[360px] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        <div className="flex flex-col items-center gap-8">
+          <h3 className="text-2xl font-[200] text-white">
+            Abaixo vou deixar algumas das minhas redes para que você possa me
+            encontrar
+          </h3>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+          <div className="flex w-full max-w-[400px] flex-1 items-center justify-between">
+            <Link
+              href="mailto:renanlido@yahoo.com.br"
+              className="group flex items-center justify-center gap-2 text-xl font-[200] text-white"
+            >
+              email
+              <Mail
+                width={16}
+                height={16}
+                className="stroke-none group-hover:stroke-white"
+              />
+            </Link>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+            <Link
+              href="https://www.linkedin.com/in/renanlido"
+              className="group flex items-center justify-center gap-2 text-xl font-[200] text-white"
+            >
+              linkedin
+              <Linkedin
+                width={16}
+                height={16}
+                className="stroke-none group-hover:stroke-white"
+              />
+            </Link>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+            <Link
+              href="https://www.github.com/renanlido"
+              className="group flex items-center justify-center gap-2 text-xl font-[200] text-white"
+            >
+              github
+              <Github
+                width={16}
+                height={16}
+                className="stroke-none group-hover:stroke-white"
+              />
+            </Link>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-balance text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+            <Link
+              href="https://api.whatsapp.com/send?phone=5524981655382"
+              className="group flex items-center justify-center gap-2 text-xl font-[200] text-white"
+            >
+              whatsapp
+              <WhatsappSvg
+                width={16}
+                height={16}
+                className="stroke-none group-hover:stroke-white"
+              />
+            </Link>
+          </div>
+        </div>
       </div>
     </main>
   )
