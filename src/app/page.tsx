@@ -24,7 +24,7 @@ function WhatsappSvg({ ...props }: SVGProps<SVGSVGElement>) {
 
 export default function Home() {
   return (
-    <main className="flex h-screen flex-col items-center justify-center p-6">
+    <main className="flex h-svh flex-col items-center justify-center p-6">
       <div className="flex flex-col gap-1">
         <FlipCard height="400px" width="400px" />
         <span className="flex items-center justify-center gap-2 text-sm text-white">
