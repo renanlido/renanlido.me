@@ -38,7 +38,7 @@ export function withClick<T extends WithClickProps>(
         style={{
           perspective: '1200px',
           transformStyle: 'preserve-3d',
-          width: `${props.width}`,
+          width: `clamp(calc(${props.width}/2), 100vw, ${props.width})`,
           height: `calc(${props.height} - 3rem)`,
         }}
       >

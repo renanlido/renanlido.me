@@ -35,31 +35,31 @@ export default function Home() {
 
       <div className="mt-3 flex flex-col items-center gap-10 font-dm-sans md:mt-6 md:gap-20">
         <div className="flex flex-col items-center gap-5 md:gap-2">
-          <h1 className="text-3xl text-white">
+          <h1 className="text-wrap text-3xl text-white">
             Olá 👋, eu sou Renan Oliveira, desenvolvedor fullstack
           </h1>
 
-          <h2 className="text-2xl font-[200] text-white">
+          <h2 className="text-wrap text-2xl font-[200] text-white">
             Este é meu portfólio e ele está em construção ⚒️
           </h2>
         </div>
 
         <div className="flex flex-col items-center gap-8">
-          <h3 className="text-2xl font-[200] text-white">
+          <h3 className="text-wrap text-2xl font-[200] text-white">
             Abaixo vou deixar algumas das minhas redes para que você possa me
             encontrar
           </h3>
 
-          <div className="flex w-full max-w-[400px] flex-1 items-center justify-between">
+          <div className="flex w-full max-w-[400px] flex-1 flex-col items-center justify-between md:flex-row">
             <Link
               href="mailto:renanlido@yahoo.com.br"
-              className="group flex items-center justify-center gap-2 text-xl font-[200] text-white"
+              className="group flex w-full items-center justify-center gap-2 text-xl font-[200] text-white"
             >
               email
               <Mail
                 width={16}
                 height={16}
-                className="stroke-none group-hover:stroke-white"
+                className="group-hover:stroke-white md:stroke-none"
               />
             </Link>
 
@@ -71,7 +71,7 @@ export default function Home() {
               <Linkedin
                 width={16}
                 height={16}
-                className="stroke-none group-hover:stroke-white"
+                className="group-hover:stroke-white md:stroke-none"
               />
             </Link>
 
@@ -83,7 +83,7 @@ export default function Home() {
               <Github
                 width={16}
                 height={16}
-                className="stroke-none group-hover:stroke-white"
+                className="group-hover:stroke-white md:stroke-none"
               />
             </Link>
 
@@ -95,7 +95,7 @@ export default function Home() {
               <WhatsappSvg
                 width={16}
                 height={16}
-                className="stroke-none group-hover:stroke-white"
+                className="stroke-white group-hover:stroke-white md:stroke-none"
               />
             </Link>
           </div>
