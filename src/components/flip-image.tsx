@@ -39,7 +39,7 @@ export function withClick<T extends WithClickProps>(
           perspective: '1200px',
           transformStyle: 'preserve-3d',
           width: `clamp(calc(${props.width}/2), 100vw, ${props.width})`,
-          height: `calc(${props.height} - 3rem)`,
+          height: `clamp(calc(${props.height}/2 - 3rem), 50vh, calc(${props.height} - 3rem))`,
         }}
       >
         <motion.div
