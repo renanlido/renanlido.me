@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
 
 import { cn } from '@/lib/utils'
@@ -19,6 +21,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn([dmSans.variable, roboto.variable, chivo.variable])}>
         {children}
+        {process.env.NODE_ENV === 'production' && (
+          <>
+            <SpeedInsights />
+            <Analytics />
+          </>
+        )}
       </body>
     </html>
   )
