@@ -12,7 +12,7 @@ type CardProps = {
 
 function Card({ variant = 'front' }: CardProps) {
   return (
-    <div>
+    <>
       {variant === 'front' ? (
         <Image
           src="/eu-disney.png"
@@ -30,7 +30,7 @@ function Card({ variant = 'front' }: CardProps) {
           className="rounded-sm"
         />
       )}
-    </div>
+    </>
   )
 }
 

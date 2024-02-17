@@ -32,14 +32,14 @@ export function withClick<T extends WithClickProps>(
 
     return (
       <motion.div
-        className="cursor-pointer"
+        className="cursor-pointer px-6"
         onClick={handleClick}
         transition={spring}
         style={{
           perspective: '1200px',
           transformStyle: 'preserve-3d',
           width: `${props.width}`,
-          height: `${props.height}`,
+          height: `calc(${props.height} - 3rem)`,
         }}
       >
         <motion.div

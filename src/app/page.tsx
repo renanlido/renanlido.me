@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { ArrowUp, Github, Linkedin, Mail } from 'lucide-react'
 import Link from 'next/link'
 import { SVGProps } from 'react'
 
@@ -12,7 +12,7 @@ function WhatsappSvg({ ...props }: SVGProps<SVGSVGElement>) {
       width="800px"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 52 52"
-      stroke-width="2"
+      strokeWidth="2"
       xmlSpace="preserve"
       {...props}
     >
@@ -24,12 +24,18 @@ function WhatsappSvg({ ...props }: SVGProps<SVGSVGElement>) {
 
 export default function Home() {
   return (
-    <main className="flex h-screen flex-col items-center justify-center">
-      <FlipCard height="400px" width="400px" />
+    <main className="flex h-screen flex-col items-center justify-center p-6">
+      <div className="flex flex-col gap-1">
+        <FlipCard height="400px" width="400px" />
+        <span className="flex items-center justify-center gap-2 text-sm text-white">
+          <ArrowUp className="stroke-white" width={12} height={12} /> This is an
+          ester egg 🥚. Click or touch to show!
+        </span>
+      </div>
 
-      <div className="mt-6 flex flex-col items-center gap-20 font-dm-sans">
-        <div className="flex flex-col items-center gap-2">
-          <h1 className=" text-3xl text-white">
+      <div className="mt-3 flex flex-col items-center gap-10 font-dm-sans md:mt-6 md:gap-20">
+        <div className="flex flex-col items-center gap-5 md:gap-2">
+          <h1 className="text-3xl text-white">
             Olá 👋, eu sou Renan Oliveira, desenvolvedor fullstack
           </h1>
 
