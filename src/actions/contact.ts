@@ -69,7 +69,8 @@ export async function sendContact(
 
   const { error } = await resend.emails.send({
     from:
-      process.env.CONTACT_FROM_EMAIL ?? 'renanlido.me <onboarding@resend.dev>',
+      process.env.CONTACT_FROM_EMAIL ??
+      'renanlido.me <contato@ntdstech.com.br>',
     to: process.env.CONTACT_TO_EMAIL ?? site.email,
     replyTo: parsed.data.email,
     subject: `Contato via site: ${parsed.data.name}${parsed.data.company ? ` (${parsed.data.company})` : ''}`,
