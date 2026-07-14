@@ -29,29 +29,9 @@ export default async function OpengraphImage({
         style={{
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'space-between',
+          justifyContent: 'flex-end',
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-          <div
-            style={{
-              width: 18,
-              height: 18,
-              borderRadius: 999,
-              backgroundColor: '#4ade80',
-              display: 'flex',
-            }}
-          />
-          <div
-            style={{
-              color: '#e9e5ff',
-              fontSize: 28,
-              display: 'flex',
-            }}
-          >
-            {isPt ? 'disponível para contratos' : 'available for contracts'}
-          </div>
-        </div>
         <div
           style={{
             color: '#e9e5ff',
