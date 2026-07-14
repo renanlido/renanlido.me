@@ -1,0 +1,17 @@
+# renanlido.me
+
+> Personal website of Renan Luiz de Oliveira (renanlido) — Tech Lead & Senior Full Stack Developer specialized in mission-critical systems: 24/7 port terminal operations, OCR/ALPR computer-vision pipelines, stadium access control (80k tickets per event), and high-volume serverless campaigns.
+
+Renan has been writing code since 2009, serves enterprise clients (Embraer, Heineken, Priime, Bilheteria Digital) since 2021, and founded Nextech Digital Solutions in 2022. Based in Três Rios, Brazil. Available for contracts and consulting worldwide.
+
+## Pages
+
+- [Home (pt-BR)](https://renanlido.me/): positioning, case studies with production metrics, tech stack, contact form
+- [Home (en)](https://renanlido.me/en): English version
+- [Blog](https://renanlido.me/blog): technical articles on mission-critical systems
+
+## Contact
+
+- Email: renanlido@yahoo.com.br
+- GitHub: https://github.com/renanlido
+- LinkedIn: https://www.linkedin.com/in/renanlido/

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Renan Oliveira — Tech Lead & Senior Full Stack Developer",
+    "description": "I build systems that can't go down: ports running 24/7, stadium gates handling 80k tickets, World Cup-scale campaigns. Tech Lead and senior full stack developer — available for contracts.",
+    "blogTitle": "Blog — Renan Oliveira",
+    "blogDescription": "Technical articles on mission-critical systems, computer vision, event-driven architecture, and whatever else is holding production together."
+  },
+  "nav": {
+    "cases": "Proof",
+    "stack": "Arsenal",
+    "blog": "Blog",
+    "contact": "Contact",
+    "skipToContent": "Skip to content",
+    "toggleTheme": "Toggle theme",
+    "switchToEnglish": "Mudar para Português",
+    "menu": "Menu"
+  },
+  "hero": {
+    "status": "Available for contracts",
+    "titleA": "I build systems",
+    "titleB": "that can't go down.",
+    "lede": "Tech Lead and senior full stack developer. Ports running 24/7, stadiums with 80,000 people, World Cup-scale campaigns — when going down is not an option, the code is mine.",
+    "clientsLabel": "Companies that trusted my code:",
+    "ctaPrimary": "Let's talk",
+    "ctaSecondary": "See the proof",
+    "uptimeLabel": "uptime: renan.exe — {years} years writing code, zero intention of stopping"
+  },
+  "cases": {
+    "title": "Proof it works",
+    "intro": "Less \"passionate about technology\", more production numbers. Four real operations my code keeps — or kept — standing.",
+    "role": "My role",
+    "stack": "Tools of the trade",
+    "flagship": "flagship case"
+  },
+  "arsenal": {
+    "title": "Full stack, all the way down",
+    "intro": "\"Full stack\" here is not a figure of speech. Versatility is how I deliver systems that don't fall over: if the problem crosses layers, I cross them too.",
+    "architecture": "All of it held together with Clean Architecture, DDD, SOLID and Design Patterns — because 3am heroics look great in movies, not in production.",
+    "bio": "Writing code since 2009. Serving enterprise clients since 2021, and in 2022 I founded Nextech Digital Solutions, where I lead architecture and development for mission-critical operations. Based in Três Rios, Brazil, working worldwide — timezones are a detail, production never sleeps anyway."
+  },
+  "blog": {
+    "title": "Things I learned keeping production alive",
+    "intro": "Technical articles straight from the trenches. No todo-list tutorials.",
+    "readMore": "Read article",
+    "readingTime": "{minutes} min read",
+    "backToBlog": "Back to blog",
+    "backToHome": "Back home",
+    "publishedAt": "Published on",
+    "allPosts": "All articles"
+  },
+  "contact": {
+    "title": "Let's build something that doesn't go down?",
+    "intro": "Tell me about your project, your team, or your production problem. I reply within 24h — usually much faster, because unread notifications bother me.",
+    "nameLabel": "Your name",
+    "namePlaceholder": "What should I call you?",
+    "emailLabel": "Your email",
+    "emailPlaceholder": "you@company.com",
+    "companyLabel": "Company (optional)",
+    "companyPlaceholder": "Where the magic happens",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Project, context, deadline, challenge — the more detail, the better my answer.",
+    "submit": "Send message",
+    "submitting": "Sending…",
+    "successTitle": "Message sent! 🚀",
+    "successBody": "It landed safely on my side. I'll get back to you within 24h — meanwhile, this site keeps an eye on production for me.",
+    "sendAnother": "Send another",
+    "errorGeneric": "The send failed — and yes, the irony of a broken form on a website about systems that don't go down is not lost on me. Try again or email me directly.",
+    "orDirect": "Prefer a direct channel?",
+    "validation": {
+      "nameRequired": "Hard to start a conversation without a name.",
+      "emailInvalid": "That email doesn't look valid — mind checking?",
+      "messageTooShort": "Give me at least 10 characters of context."
+    }
+  },
+  "footer": {
+    "builtWith": "Built with Next.js, coffee, and the stubbornness of someone who doesn't accept downtime.",
+    "sourceHint": "Curious? This site's code is on GitHub.",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "404 — this page went down.",
+    "body": "The irony is not lost on me: the systems-that-never-go-down guy has a page that doesn't exist. In my defense, this route was never in the SLA.",
+    "cta": "Back to what works"
+  },
+  "party": {
+    "toast": "PARTY MODE ACTIVATED 🎉 (↑↑↓↓←→←→BA — you know the classics)",
+    "hint": "psst: ↑↑↓↓←→←→BA",
+    "awayTitle": "come back! the deploy passed 🎉"
+  }
+}

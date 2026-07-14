@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Renan Oliveira — Tech Lead & Desenvolvedor Full Stack Sênior",
+    "description": "Construo sistemas que não podem parar: portos operando 24/7, catracas de estádio com 80 mil ingressos, campanhas de Copa do Mundo. Tech Lead e desenvolvedor full stack sênior — disponível para contratos.",
+    "blogTitle": "Blog — Renan Oliveira",
+    "blogDescription": "Artigos técnicos sobre sistemas de missão crítica, visão computacional, event-driven e o que mais estiver segurando produção em pé."
+  },
+  "nav": {
+    "cases": "Provas",
+    "stack": "Arsenal",
+    "blog": "Blog",
+    "contact": "Contato",
+    "skipToContent": "Pular para o conteúdo",
+    "toggleTheme": "Alternar tema",
+    "switchToEnglish": "Switch to English",
+    "menu": "Menu"
+  },
+  "hero": {
+    "status": "Disponível para contratos",
+    "titleA": "Eu construo sistemas",
+    "titleB": "que não podem parar.",
+    "lede": "Tech Lead e desenvolvedor full stack sênior. Portos operando 24/7, estádios com 80 mil pessoas, campanhas de Copa do Mundo — quando cair não é opção, o código é meu.",
+    "clientsLabel": "Já confiaram no meu código:",
+    "ctaPrimary": "Vamos conversar",
+    "ctaSecondary": "Ver as provas",
+    "uptimeLabel": "uptime: renan.exe — {years} anos escrevendo código, zero vontade de parar"
+  },
+  "cases": {
+    "title": "Provas de que funciona",
+    "intro": "Menos \"apaixonado por tecnologia\", mais número de produção. Quatro operações reais que meu código segura — ou segurou — em pé.",
+    "role": "Meu papel",
+    "stack": "Ferramentas do crime",
+    "flagship": "case principal"
+  },
+  "arsenal": {
+    "title": "Full stack até o talo",
+    "intro": "\"Full stack\" no meu caso não é força de expressão. A versatilidade é o como eu entrego sistemas que não caem: se o problema atravessa camadas, eu atravesso junto.",
+    "architecture": "Tudo isso amarrado com Clean Architecture, DDD, SOLID e Design Patterns — porque herói de madrugada é bonito no filme, não em produção.",
+    "bio": "Programo desde 2009. Desde 2021 atendo clientes enterprise, e em 2022 fundei a Nextech Digital Solutions, de onde lidero arquitetura e desenvolvimento para operações de missão crítica. Base em Três Rios/RJ, atendendo o mundo inteiro — fuso é detalhe, produção não dorme mesmo."
+  },
+  "blog": {
+    "title": "Coisas que aprendi segurando produção",
+    "intro": "Artigos técnicos direto do campo de batalha. Sem tutorial de todo list.",
+    "readMore": "Ler artigo",
+    "readingTime": "{minutes} min de leitura",
+    "backToBlog": "Voltar pro blog",
+    "backToHome": "Voltar pro início",
+    "publishedAt": "Publicado em",
+    "allPosts": "Todos os artigos"
+  },
+  "contact": {
+    "title": "Bora construir algo que não cai?",
+    "intro": "Me conta do seu projeto, do seu time ou do seu problema de produção. Respondo em até 24h — geralmente bem menos, porque notificação não lida me incomoda.",
+    "nameLabel": "Seu nome",
+    "namePlaceholder": "Como te chamo?",
+    "emailLabel": "Seu e-mail",
+    "emailPlaceholder": "voce@empresa.com",
+    "companyLabel": "Empresa (opcional)",
+    "companyPlaceholder": "Onde a mágica acontece",
+    "messageLabel": "Mensagem",
+    "messagePlaceholder": "Projeto, contexto, prazo, desafio — quanto mais detalhe, melhor a resposta.",
+    "submit": "Enviar mensagem",
+    "submitting": "Enviando…",
+    "successTitle": "Mensagem enviada! 🚀",
+    "successBody": "Chegou aqui do outro lado. Te respondo em até 24h — enquanto isso, o site fica de olho na produção por mim.",
+    "sendAnother": "Enviar outra",
+    "errorGeneric": "Deu ruim no envio — e a ironia de um form quebrado num site sobre sistemas que não caem não passou despercebida. Tenta de novo ou me chama direto no e-mail.",
+    "orDirect": "Prefere canal direto?",
+    "validation": {
+      "nameRequired": "Sem nome fica difícil puxar assunto.",
+      "emailInvalid": "Esse e-mail não parece válido — confere aí?",
+      "messageTooShort": "Me dá pelo menos 10 caracteres de contexto."
+    }
+  },
+  "footer": {
+    "builtWith": "Feito com Next.js, café e a teimosia de quem não aceita downtime.",
+    "sourceHint": "Curioso? O código deste site está no GitHub.",
+    "rights": "Todos os direitos reservados."
+  },
+  "notFound": {
+    "title": "404 — essa página caiu.",
+    "body": "A ironia não passou despercebida: o cara dos sistemas que não caem tem uma página que não existe. Em minha defesa, essa rota nunca esteve no SLA.",
+    "cta": "Voltar pro que funciona"
+  },
+  "party": {
+    "toast": "MODO FESTA ATIVADO 🎉 (↑↑↓↓←→←→BA — você conhece os clássicos)",
+    "hint": "psst: ↑↑↓↓←→←→BA",
+    "awayTitle": "volta! o deploy passou 🎉"
+  }
+}
