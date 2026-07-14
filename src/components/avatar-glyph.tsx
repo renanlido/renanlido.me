@@ -79,7 +79,13 @@ export function AvatarGlyph({ className }: { className?: string }) {
             strokeWidth="3"
             strokeLinejoin="round"
           />
-          <circle cx="60" cy="8" r="4" className="fill-on-accent" />
+          <circle
+            cx="60"
+            cy="8"
+            r="4"
+            className="fill-accent stroke-on-accent"
+            strokeWidth="2"
+          />
           <path
             d="M32 52 Q40 44 48 52"
             className="stroke-on-accent fill-none"
@@ -94,13 +100,13 @@ export function AvatarGlyph({ className }: { className?: string }) {
           />
           <path
             d="M42 76 Q60 96 78 76"
-            className="fill-bg/70 stroke-on-accent"
+            className="stroke-on-accent fill-[oklch(0.99_0.02_96)]"
             strokeWidth="4"
             strokeLinecap="round"
             strokeLinejoin="round"
           />
           <circle cx="24" cy="30" r="3" className="fill-primary" />
-          <circle cx="98" cy="26" r="3" className="fill-on-accent" />
+          <circle cx="98" cy="26" r="3" className="fill-ok" />
           <circle cx="102" cy="82" r="3" className="fill-primary" />
         </g>
       </svg>
